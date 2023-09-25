@@ -1,0 +1,328 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Reaver;
+    src: url(./Font/Reaver-Bold.ttf);
+}
+
+body{
+
+    font-family: "Reaver";
+}
+
+a{
+
+    text-decoration: none;
+}
+
+.body-atas{
+
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(121, 29, 207, 0), rgba(121, 29, 207, 0)), url(./Images/ShadowFiend\ BG\ blur.png);
+    background-position: center center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* position: absolute; */
+}
+
+.body-atas-menengah{
+
+    margin-left: 4vw;
+}
+
+nav{
+
+    display: flex;
+    padding: 1% 1%;
+    justify-content: space-between;
+}
+
+nav img{
+
+    /* position: absolute; */
+    width: 40px;
+    height: 40px;
+    left: 21px;
+    top: 9px;
+}
+
+.gambar_noka{
+
+    width: 248px;
+    height: 64px;
+}
+
+.logo_links{
+
+    display: flex;
+
+}
+
+nav img{
+    width: 75px;
+}
+
+.nav-link ul{
+    display: flex;
+
+}
+
+.link{
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-link ul li {
+
+    list-style: none;
+    display: flex;
+    padding: 8px 12 px;
+}
+
+.nav-link ul li a, .register ul li a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.banner-text >h2{
+
+    color: white;
+    font-size: 40px;
+    margin-bottom: 1em;
+}
+
+.banner-text >h4{
+
+    color:white;
+    font-size: 14px;
+}
+
+.homenews{
+
+    margin-top: 2em;
+    color: white;
+    font-size: 15px;
+}
+
+.register ul li a{
+
+    padding: 10px;
+}
+
+.register >ul{
+
+    background-color: #5A0707;
+    border-radius: 20px;
+}
+
+.news-pic{
+
+    width: 450px;
+    height: auto;
+    margin-top: 2em;
+}
+
+.latest-news-pic{
+
+    display: flex;
+    gap: 20px;
+}
+
+.tengah{
+
+    min-height: 100vh;
+    width: 100%;
+    background-position: center center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* position: absolute; */
+    background-image: linear-gradient(rgba(121, 29, 207, 0), rgba(121, 29, 207, 0)), url(./Images/Join\ Batlle\ Blur.png);
+}
+
+.text-tengah{
+
+    padding-top: 375px;
+} 
+
+.join-battle >h2{
+
+    color: white;
+    font-size: 75px;
+    text-align: center;
+}
+
+.join-battle >h4{
+
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.register-tengah ul li a{
+
+    /* display: flex; */
+    padding: 15px 50px 15px 50px;
+    color: white;
+    text-align: center;
+    background-color: #5A0707;
+    border-radius: 20px;
+}
+
+.register-tengah ul li{
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.bawah{
+
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* position: relative; */
+    background-image: linear-gradient(rgba(121, 29, 207, 0), rgba(121, 29, 207, 0)), url(./Images/DPC\ BG\ Blur.png);
+}
+
+.pro-arena >h2{
+
+    color: white;
+    font-size: 75px;
+    text-align: center;
+}
+
+.pro-arena >h4{
+
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.watch-now ul li a{
+
+    /* display: flex; */
+    padding: 15px 50px 15px 50px;
+    color: white;
+    text-align: center;
+    background-color: #5A0707;
+    border-radius: 20px;
+    
+}
+
+.watch-now ul li{
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.text-bawah{
+
+    padding-top: 375px;
+} 
+
+.footer{
+
+    background-color: #1a1a1a;
+    /* background-color: black; */
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer-text{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-bawah{
+
+    height: 50px;
+}
+
+@media only screen and (max-width:1450px){
+    
+    .news-pic{
+
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width:810px){
+    
+    nav img{
+
+        /* position: absolute; */
+        width: 40px;
+        height: 40px;
+        left: 21px;
+        top: 9px;
+    }
+
+    .nav-link ul li a, .register ul li a{
+
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+
+    .logo_links{
+
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .news-pic{
+
+        width: 80%;
+    }
+
+    .latest-news-pic {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .join-battle >h2{
+
+        color: white;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .join-battle >h4{
+    
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .pro-arena >h2{
+
+        color: white;
+        font-size: 45px;
+        text-align: center;
+    }
+    
+    .pro-arena >h4{
+    
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+}

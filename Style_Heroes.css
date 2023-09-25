@@ -1,0 +1,300 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Reaver;
+    src: url(./Font/Reaver-Bold.ttf);
+}
+
+body{
+
+    font-family: "Reaver";
+}
+
+a{
+
+    text-decoration: none;
+}
+
+.body-atas{
+
+    width: 100%;
+    background-image: linear-gradient(rgba(121, 29, 207, 0), rgba(121, 29, 207, 0)), url(./Images/Carbon\ wallpaper.jpg);
+    background-position: center center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* position: absolute; */
+}
+
+.body-tengah{
+
+    width: 100%;
+    background-image: linear-gradient(rgba(121, 29, 207, 0), rgba(121, 29, 207, 0)), url(./Images/Carbon\ wallpaper.jpg);
+    background-position: center center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* position: absolute; */
+}
+
+.body-bawah{
+
+    width: 100%;
+    background-image: linear-gradient(rgba(121, 29, 207, 0), rgba(121, 29, 207, 0)), url(./Images/Carbon\ wallpaper.jpg);
+    background-position: center center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* position: absolute; */
+}
+
+.register ul li a{
+
+    padding: 10px;
+}
+
+.register >ul{
+
+    background-color: #5A0707;
+    border-radius: 20px;
+}
+
+nav{
+
+    display: flex;
+    padding: 1% 1%;
+    justify-content: space-between;
+}
+
+nav img{
+
+    /* position: absolute; */
+    width: 40px;
+    height: 40px;
+    left: 21px;
+    top: 9px;
+}
+
+.gambar_noka{
+
+    width: 248px;
+    height: 64px;
+}
+
+.logo_links{
+
+    display: flex;
+
+}
+
+nav img{
+    width: 75px;
+}
+
+.nav-link ul{
+    display: flex;
+
+}
+
+.link{
+    padding: 10px;
+    list-style: none;
+}
+
+.nav-link ul li {
+
+    list-style: none;
+    display: flex;
+    padding: 8px 12 px;
+}
+
+.nav-link ul li a, .register ul li a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.hero-opening{
+
+    padding-left: 4vw;
+}
+
+.hero-opening >h3{
+
+    color: white;
+    font-size: 33px;
+}
+
+.hero-opening >h2{
+
+    margin-top: 2%;
+    color: white;
+    font-size: 45px;
+}
+
+.hero-name{
+
+    color: white;
+}
+
+.grid-container{
+
+    /* display: grid;
+    grid-auto-rows: minmax(168.75px, auto); */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.strength-atas{
+
+    padding-top: 2vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.strength-bawah{
+
+    padding-top: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 2vw;
+}
+
+.strength-text{
+
+    color: white;
+    font-size: 35px;
+    background-color: #111F2D;
+}
+
+.strength-text >h2{
+
+    padding-left: 4vw;
+}
+
+.container{
+
+    position: relative;
+    /* width: 300px; */
+    width: 20vw;
+    height: 12vw;
+}
+
+.hero-pic{
+
+    display: block;
+    width: 100%;
+
+}
+
+.image-overlay{
+
+    position: absolute;
+    /* margin-top: -10vw; */
+    /* margin-left: -2vw; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image-overlay-blur{
+
+    backdrop-filter: blur(10px);
+}
+
+.image-overlay:hover{
+
+    opacity: 1;
+}
+
+.image-overlay >*{
+
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image-overlay:hover >*{
+
+    transform: translateY(0px);
+}
+
+.footer{
+
+    background-color: #1a1a1a;
+    /* background-color: black; */
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer-text{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-bawah{
+
+    height: 50px;
+}
+
+@media screen and (max-width:810px){
+    
+    nav img{
+
+        /* position: absolute; */
+        width: 40px;
+        height: 40px;
+        left: 21px;
+        top: 9px;
+    }
+
+    .nav-link ul li a, .register ul li a{
+
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .logo_links{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-opening >h3{
+
+        color: white;
+        font-size: 26px;
+    }
+    
+    .hero-opening >h2{
+    
+        margin-top: 2%;
+        color: white;
+        font-size: 38px;
+    }
+
+    .strength-text{
+
+        color: white;
+        font-size: 23px;
+        background-color: #111F2D;
+    }
+
+}

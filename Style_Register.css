@@ -1,0 +1,205 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Reaver;
+    src: url(./Font/Reaver-Bold.ttf);
+}
+
+body{
+
+    font-family: "Reaver";
+}
+
+a{
+
+    text-decoration: none;
+}
+
+.body-atas{
+
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(121, 29, 207, 0), rgba(121, 29, 207, 0)), url(./Images/Disciple\ Path.jpg);
+    background-position: center center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* position: absolute; */
+}
+
+nav{
+
+    display: flex;
+    padding: 1% 1%;
+    justify-content: space-between;
+}
+
+nav img{
+
+    /* position: absolute; */
+    width: 40px;
+    height: 40px;
+    left: 21px;
+    top: 9px;
+}
+
+.gambar_noka{
+
+    width: 248px;
+    height: 64px;
+}
+
+.logo_links{
+
+    display: flex;
+
+}
+
+nav img{
+    width: 75px;
+}
+
+.nav-link ul{
+    display: flex;
+
+}
+
+.link{
+    padding: 10px;
+    list-style: none;
+}
+
+.nav-link ul li {
+
+    list-style: none;
+    display: flex;
+    padding: 8px 12 px;
+}
+
+.nav-link ul li a, .register ul li a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.allform{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.container{
+    /* margin-top: 120px; */
+    width: 500px;
+    padding: 1em 4em 1em 4em;
+    border-radius: 12px;
+    background-color:rgba(240, 248, 255, 0.651);
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 100%;
+    height: 60%;
+    justify-content: space-around;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.full_name, .email, .gender, .password, .confirm_password, .agreement{
+
+    margin-bottom: 40px;
+}
+
+.button1{
+
+    display: flex;
+    justify-content: center;
+    border: 0px;
+}
+
+.submit{
+
+    border-radius: 5px;
+    border: 0px;
+    padding: 1em;
+    font-family: Reaver;
+    font-size: 14px;
+}
+
+.submit:hover{
+    background-color: rgb(51, 51, 51);
+    color: aliceblue;
+    transform: scale(1.03);
+}
+
+.radio, .checkbox{
+    margin-left: 10px;    
+}
+
+#name, #email, #gender, #password, #confirm_password{
+    height: 3vh;
+    width: 100%;
+    border: 0px;
+}
+
+.footer{
+
+    background-color: #1a1a1a;
+    /* background-color: black; */
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer-text{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-bawah{
+
+    height: 50px;
+}
+
+@media screen and (max-width:810px){
+    
+    nav img{
+
+        /* position: absolute; */
+        width: 40px;
+        height: 40px;
+        left: 21px;
+        top: 9px;
+    }
+
+    .nav-link ul li a, .register ul li a{
+
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .logo_links{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,419 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Reaver;
+    src: url(./Font/Reaver-Bold.ttf);
+}
+
+body{
+
+    font-family: "Reaver";
+}
+
+a{
+
+    text-decoration: none;
+}
+
+.body-atas{
+
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(121, 29, 207, 0), rgba(121, 29, 207, 0)), url(./Images/DPC\ BG\ Blur.png);
+    background-position: center center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* position: absolute; */
+}
+
+.register ul li a{
+
+    padding: 10px;
+}
+
+.register >ul{
+
+    background-color: #5A0707;
+    border-radius: 20px;
+}
+
+nav{
+
+    display: flex;
+    padding: 1% 1%;
+    justify-content: space-between;
+}
+
+nav img{
+
+    /* position: absolute; */
+    width: 40px;
+    height: 40px;
+    left: 21px;
+    top: 9px;
+}
+
+.gambar_noka{
+
+    width: 248px;
+    height: 64px;
+}
+
+.logo_links{
+
+    display: flex;
+
+}
+
+nav img{
+    width: 75px;
+}
+
+.nav-link ul{
+    display: flex;
+
+}
+
+.link{
+    padding: 10px;
+    list-style: none;
+}
+
+.nav-link ul li {
+
+    list-style: none;
+    display: flex;
+    padding: 8px 12 px;
+}
+
+.nav-link ul li a, .register ul li a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.slogan-esports{
+
+    color: white;
+}
+
+.slogan-atas {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.lambang-noka-esport{
+
+    width: 30%;
+}
+
+.slogan-esports >h2{
+
+    font-size: 50px;
+}
+
+.slogan-esports{
+
+    font-size: 30px;
+}
+
+.body-tengah{
+
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(121, 29, 207, 0), rgba(121, 29, 207, 0)), url(./Images/Carbon\ wallpaper.jpg);
+    background-position: center center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* position: absolute; */
+}
+
+.division-text{
+
+    background-color: #111F2D;
+    font-size: 50px;
+    color: white;
+    padding: 1vw;
+}
+
+.table{
+
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.table-content{
+
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    background-color: #111F2D;
+    text-align: left;
+    padding: 3%;
+}
+
+
+.bagian-kiri, .bagian-kanan{
+
+    width: 50%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.bagian-kiri >h1{
+
+    color: white;
+    font-size: 50px;
+}
+
+.bagian-kanan >h1{
+
+    color: white;
+    font-size: 50px;
+}
+
+.logo-tim{
+
+    width: 20%;
+}
+
+.team-name{
+
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 25px;
+    align-items: center;
+}
+
+.body-bawah{
+
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(121, 29, 207, 0), rgba(121, 29, 207, 0)), url(./Images/Carbon\ wallpaper.jpg);
+    background-position: center center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* position: absolute; */
+    padding-bottom: 3%;
+}
+
+.body-bawah-2{
+
+    min-height: 75vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(121, 29, 207, 0), rgba(121, 29, 207, 0)), url(./Images/Carbon\ wallpaper.jpg);
+    background-position: center center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* position: absolute; */
+    padding-bottom: 3%;
+}
+
+.match-table-1{
+
+    background-color: #111F2D;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.match-table-2{
+
+    background-color: #111F2D;
+    /* margin: 10% 5% 10% 5%; */
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.live{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.live >p{
+
+    padding: 2%;
+}
+
+.live >h1{
+
+    font-size: 25px;
+}
+
+.team-match-name{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin-bottom: 2%;
+}
+
+.team-stat-kiri{
+
+    display: flex;
+    color: white;
+    font-size: 25px;
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-stat-kanan{
+
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+    font-size: 25px;
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tim-logo{
+
+    width: 20%;
+}
+
+.footer{
+
+    background-color: #1a1a1a;
+    /* background-color: black; */
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer-text{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-bawah{
+
+    height: 50px;
+}
+
+
+@media screen and (max-width:1120px){
+
+    .team-name{
+
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-size: 15px;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:810px){
+    
+    nav img{
+
+        /* position: absolute; */
+        width: 40px;
+        height: 40px;
+        left: 21px;
+        top: 9px;
+    }
+
+    .nav-link ul li a, .register ul li a{
+
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .logo_links{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slogan-esports >h2{
+
+        font-size: 30px;
+    }
+    
+    .slogan-esports{
+    
+        font-size: 15px;
+    }
+
+    .bagian-kiri >h1{
+
+        color: white;
+        font-size: 30px;
+    }
+    
+    .bagian-kanan >h1{
+    
+        color: white;
+        font-size: 30px;
+    }
+
+    .team-name{
+
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-size: 7px;
+        align-items: center;
+    }
+
+    .team-stat-kiri{
+
+        display: flex;
+        color: white;
+        font-size: 10px;
+        width: 25%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .team-stat-kanan{
+    
+        display: flex;
+        flex-direction: row-reverse;
+        color: white;
+        font-size: 10px;
+        width: 25%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .tim-logo{
+
+        width: 23px;
+    }
+
+    .division-text{
+
+        font-size: 35px;
+    }
+
+}

@@ -1,0 +1,220 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Reaver;
+    src: url(./Font/Reaver-Bold.ttf);
+}
+
+body{
+
+    font-family: "Reaver";
+}
+
+a{
+
+    text-decoration: none;
+}
+
+.body-atas{
+
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(121, 29, 207, 0), rgba(121, 29, 207, 0)), url(./Images/Roshan\ Blur.png);
+    background-position: center center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* position: absolute; */
+}
+
+.register ul li a{
+
+    padding: 10px;
+}
+
+.register >ul{
+
+    background-color: #5A0707;
+    border-radius: 20px;
+}
+
+nav{
+
+    display: flex;
+    padding: 1% 1%;
+    justify-content: space-between;
+}
+
+nav img{
+
+    /* position: absolute; */
+    width: 40px;
+    height: 40px;
+    left: 21px;
+    top: 9px;
+}
+
+.gambar_noka{
+
+    width: 248px;
+    height: 64px;
+}
+
+.logo_links{
+
+    display: flex;
+
+}
+
+nav img{
+    width: 75px;
+}
+
+.nav-link ul{
+    display: flex;
+
+}
+
+.link{
+    padding: 10px;
+    list-style: none;
+}
+
+.nav-link ul li {
+
+    list-style: none;
+    display: flex;
+    padding: 8px 12 px;
+}
+
+.nav-link ul li a, .register ul li a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.top-news{
+
+    height: 500px;
+    padding: 4vw;
+    /* margin-left: 4vw; */
+}
+
+.top-news-pic{
+
+    width: 300px;
+    margin-top: 30vh;
+}
+
+.top-news-text >h2{
+
+    color: white;
+    font-size: 30px;
+}
+
+.top-news-text >h4{
+
+    color: white;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.body-tengah{
+
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(121, 29, 207, 0), rgba(121, 29, 207, 0)), url(./Images/Carbon\ wallpaper.jpg);
+    background-position: center center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* position: absolute; */
+}
+
+.news-pic-exc{
+
+    width: 300px;
+    height: 157.4px;
+}
+
+.news-pic-samping{
+
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    width: 50%;
+}
+
+.news-pic{
+
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.news-text >h2{
+
+    color: white;
+    font-size: 25px;
+}
+
+.news-text >h4 a{
+
+    color: white;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.footer{
+
+    background-color: #1a1a1a;
+    /* background-color: black; */
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer-text{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-bawah{
+
+    height: 50px;
+}
+
+@media screen and (max-width:810px){
+    
+    nav img{
+
+        /* position: absolute; */
+        width: 40px;
+        height: 40px;
+        left: 21px;
+        top: 9px;
+    }
+
+    .nav-link ul li a, .register ul li a{
+
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .logo_links{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news-pic-exc{
+
+        width: 150px;
+        height: auto;
+    }
+}
